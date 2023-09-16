@@ -3,10 +3,11 @@ const {
   getAllProducts,
   createProduct,
 } = require('../controllers/productController');
-const { uploadProductProduct } = require('../controllers/uploadsController');
+const { uploadProduct } = require('../controllers/uploadsController');
+const { saveImage } = require('../middleware/saveImage');
 const router = express.Router();
 
 router.route('/').get(getAllProducts).post(createProduct);
-router.route('/uploads').post(uploadProductProduct);
+router.route('/uploads').post(saveImage, uploadProduct);
 
 module.exports = router;
