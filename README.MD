@@ -8,22 +8,22 @@ To set up this project, follow these steps:
 
 1. Clone this repository:
 
-```sh
-https://github.com/edriso/file-upload-using-multer.git
-```
+   ```sh
+   https://github.com/edriso/file-upload-using-multer.git
+   ```
 
 2. Navigate to the project directory:
 
-```sh
-cd file-upload-using-multer
-```
+   ```sh
+   cd file-upload-using-multer
+   ```
 
 3. Rename `.env.example` file to `.env`, add the following environment variables with their respective values:
 
-- `MONGO_URI`: Your MongoDB database connection URI.
-- `CLOUDINARY_NAME`: Your Cloudinary cloud name.
-- `CLOUDINARY_API_KEY`: Your Cloudinary API key.
-- `CLOUDINARY_API_SECRET`: Your Cloudinary API secret.
+   - `MONGO_URI`: Your MongoDB database connection URI.
+   - `CLOUDINARY_NAME`: Your Cloudinary cloud name.
+   - `CLOUDINARY_API_KEY`: Your Cloudinary API key.
+   - `CLOUDINARY_API_SECRET`: Your Cloudinary API secret.
 
 4. After setting up your environment variables, save the `.env` file.
 
