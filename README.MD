@@ -28,11 +28,15 @@ To set up this project, follow these steps:
 4. Open your terminal and navigate to the project's root directory.
 
 5. Run the following commands to install the project dependencies and start the application:
+
    ```sh
    npm install
    npm start
    ```
+
    This will install the required Node.js packages and start the application.
+
+6. Once the application is running, open your web browser and go to `http://localhost:3000` to access and interact with the project locally.
 
 Now you have successfully set up the File Upload project, and it's ready to run. You can access it by navigating to the appropriate URL in your web browser or as specified in your application's configuration.
 
